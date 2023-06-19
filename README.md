@@ -1,10 +1,13 @@
 # TITTLE
 8 BIT PARITY GENERATOR USING VERILOG
 
-AIM
+
+# AIM:
+
 Design and generate 8 bit parity generator using Verilog.
 
-EQUIPMENTS REQUIRED
+# EQUIPMENTS REQUIRED
+
 Hardware – PCs, Cyclone II , USB flasher
 
 Software – Quartus prime
@@ -15,7 +18,7 @@ Parity Generator
 An 8-bit parity generator is a digital circuit that generates a parity bit based on a set of 8 input data bits. The purpose of the parity bit is to provide error detection in data transmission or storage systems.The parity bit is calculated based on the number of 1s in the input data bits. There are two types of parity: even parity and odd parity.In even parity, the parity bit is set to 1 if the number of 1s in the input data is odd. This ensures that the total number of 1s, including the parity bit, is always even.In odd parity, the parity bit is set to 1 if the number of 1s in the input data is even. This ensures that the total number of 1s, including the parity bit, is always odd.
 
 
-TRUTH TABLE
+# TRUTH TABLE
 
 ![Screenshot (321)](https://github.com/Anusharonselva/Simulation-project--Digital-Electronics/assets/119405600/5a870740-2dbc-48fb-862b-b2c3e5542c7d)
 
@@ -56,5 +59,5 @@ TRUTH TABLE
 
     endmodule
 
-RESULT
+# RESULT
 Thus the synchronous 8 bit parity generator has been implemented in Quartus Prime and output is verified by using Verilog programming through its truth table
